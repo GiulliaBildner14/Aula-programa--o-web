@@ -1,6 +1,6 @@
 header {
-    background-color: #0d0f36; 
-    padding: 25px;
+    background-color: #0d0f36;
+    padding: 30px;
     display: flex;
     justify-content: center;
     gap: 20px;
@@ -10,12 +10,30 @@ header {
 header h1 {
     color: #FFD43B;
     font-size: 30px;
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     text-decoration: underline;
 }
 
-header img { 
-    width: 70px; 
+header img {
+    width: 70px;
+}
+
+.list-menu ul {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.list-menu ul li {
+    list-style: none;
+}
+
+.list-menu ul li a {
+    text-decoration: none;
+    color: #FFD43B;
+    font-size: 10x;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
 }
 
 .primeira {
@@ -32,10 +50,11 @@ header img {
     font-weight: bold;
     color: #0d0f36;
 }
- .primeira span {
-font-size: 45px;
-color: black;
- }
+
+.primeira span {
+    font-size: 45px;
+    color: black;
+}
 
 .segunda {
     padding: 70px;
@@ -45,6 +64,7 @@ color: black;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #FFD43B;
 }
+
 .segunda i {
     font-size: 35px;
 }
@@ -71,14 +91,53 @@ color: black;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-footer {
+.quarta {
+    padding: 150px;
     background-color: #0d0f36;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.quarta div {
+width: 300px;
+height: 450px;
+background-color: #FFD43B;
+text-align: center;
+padding: 15px;
+color: #0d0f36;
+}
+
+.div01 img {
+    width: 150px;
+    height: 150px;
+}
+.div02 {
+    background-image: url(Imagens/OP.jpg);
+    background-size: cover; 
+}
+
+.div03 img {
+    width: 150px;
+    height: 150px;
+}
+
+.div03 p {
+    color: #0d0f36;
+    font-weight: 700;
+}
+
+footer {
+    background-color: #FFD43B;
     padding: 30px;
-    color: #FFD43B;
+    color: #0d0f36;
     font-size: 20px;
     font-weight: bold;
     text-align: center;
 }
+
 footer i {
     font-size: 40px;
 }
